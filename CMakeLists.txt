@@ -10,6 +10,7 @@ find_package(SDL2 REQUIRED)
 
 add_executable(GAME_OF_LIFE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/app.cpp
 )
 
 target_include_directories(GAME_OF_LIFE PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)
