@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-static const int WORLD_SIZE = 100;
+static const int WORLD_SIZE = 50;
 
 void generateWorld(bool[WORLD_SIZE][WORLD_SIZE]);
 void drawWorld(bool[WORLD_SIZE][WORLD_SIZE]);
